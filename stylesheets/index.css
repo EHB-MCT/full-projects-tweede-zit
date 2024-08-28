@@ -1,0 +1,114 @@
+/**
+ * HEADER
+ *
+ * @format
+ */
+
+body {
+	font-family: Arial, sans-serif;
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+}
+
+nav {
+	background-color: white;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	width: 15%; /* Adjust the width to 100% of its container */
+	max-width: 500px; /* Optional: Set a max width to prevent it from becoming too large */
+	height: auto; /* Keep the aspect ratio */
+	margin-left: 50px;
+}
+
+/* Styles for the navigation links */
+nav ul {
+	list-style-type: none;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 0;
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-between; /* Distribute space between the items */
+	align-items: center;
+}
+
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	padding: 14px 20px;
+}
+
+nav ul li a:hover {
+	background-color: #ffeeee;
+	border-radius: 4px;
+}
+
+/* FOOTER */
+.footer {
+	height: 260px; /* Set the height of the footer */
+	background-color: #e30613; /* Optional: Set a background color */
+	width: 100%; /* Ensure the footer spans the full width of the viewport */
+	position: relative; /* Position relative to the document flow */
+	padding-top: 20px;
+}
+
+.whitespace {
+	color: pink;
+	height: 200px;
+	margin-bottom: 200px;
+}
+
+.tekst-footer {
+	color: white;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.insta-logo {
+	width: 2%; /* Adjust the width to 100% of its container */
+	max-width: 100px; /* Optional: Set a max width to prevent it from becoming too large */
+	height: auto; /* Keep the aspect ratio */
+}
+
+.tiktok-logo {
+	width: 2%; /* Adjust the width to 100% of its container */
+	max-width: 100px; /* Optional: Set a max width to prevent it from becoming too large */
+	height: auto; /* Keep the aspect ratio */
+}
+.tekst-footer p {
+	margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------------------------- */
+
+.foto-vr {
+	position: relative;
+	display: inline-block; /* Adjust as needed */
+}
+
+.vrbril-homepage {
+	display: block; /* Remove extra space below image */
+	width: 100%; /* Adjust as needed */
+	height: auto; /* Maintain aspect ratio */
+}
+
+/* Overlay text styling */
+.overlay-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white; /* Text color */
+	font-size: 24px; /* Adjust as needed */
+	font-weight: bold; /* Optional: make text bold */
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: add shadow for better readability */
+	text-align: center; /* Center align text */
+	padding: 10px; /* Optional: add padding around text */
+	box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
