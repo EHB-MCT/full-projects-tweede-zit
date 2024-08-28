@@ -64,3 +64,15 @@ nav ul li a:hover {
 	margin-left: 20px;
 	margin-top: 10px;
 }
+
+.insta-logo {
+	width: 2%; /* Adjust the width to 100% of its container */
+	max-width: 100px; /* Optional: Set a max width to prevent it from becoming too large */
+	height: auto; /* Keep the aspect ratio */
+}
+
+.tiktok-logo {
+	width: 2%; /* Adjust the width to 100% of its container */
+	max-width: 100px; /* Optional: Set a max width to prevent it from becoming too large */
+	height: auto; /* Keep the aspect ratio */
+}
