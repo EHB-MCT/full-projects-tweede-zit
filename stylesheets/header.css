@@ -19,12 +19,13 @@ nav {
 	width: 15%; /* Adjust the width to 100% of its container */
 	max-width: 500px; /* Optional: Set a max width to prevent it from becoming too large */
 	height: auto; /* Keep the aspect ratio */
+	margin-left: 50px;
 }
 
 /* Styles for the navigation links */
 nav ul {
 	list-style-type: none;
-	margin-left: 10px;
+	margin-left: 50px;
 	margin-right: 50px;
 	padding: 0;
 	display: flex;
@@ -40,6 +41,26 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	background-color: #575757;
+	background-color: #ffeeee;
 	border-radius: 4px;
+}
+
+.footer {
+	height: 260px; /* Set the height of the footer */
+	background-color: #e30613; /* Optional: Set a background color */
+	width: 100%; /* Ensure the footer spans the full width of the viewport */
+	position: relative; /* Position relative to the document flow */
+	padding-top: 20px;
+}
+
+.whitespace {
+	color: pink;
+	height: 200px;
+	margin-bottom: 200px;
+}
+
+.tekst-footer {
+	color: white;
+	margin-left: 20px;
+	margin-top: 10px;
 }
