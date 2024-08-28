@@ -76,3 +76,6 @@ nav ul li a:hover {
 	max-width: 100px; /* Optional: Set a max width to prevent it from becoming too large */
 	height: auto; /* Keep the aspect ratio */
 }
+.tekst-footer p {
+	margin-bottom: 10px;
+}
