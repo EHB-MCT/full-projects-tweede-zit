@@ -147,13 +147,10 @@ nav ul li a:hover {
 	display: inline-block; /* Adjust as needed */
 }
 
-#rectangle {
-	width: 200px;
-	height: 100px;
-	background: rgb(255, 0, 0);
-	opacity: 70%;
-	margin-top: -34%;
-	margin-left: %;
+.knop-homepage a {
+    color: inherit; /* Inherit color from the button */
+    text-decoration: none; /* Remove underline */
+    display: inline; /* Ensure the link behaves like inline text */
 }
 .vrbril-homepage {
 	display: block; /* Remove extra space below image */
@@ -318,11 +315,24 @@ nav ul li a:hover {
 	border: none;
 	padding: 30px 100px;
 	cursor: pointer;
+	
 
 	font-family: "century-gothic", sans-serif;
 	font-weight: 700;
 	font-style: bold;
 	font-size: 50px;
+}
+
+.Medialab-toggle a {
+    color: inherit; /* Inherit color from the button */
+    text-decoration: none; /* Remove underline */
+    display: inline; /* Ensure the link behaves like inline text */
+}
+
+.Medialab-untoggle a {
+    color: inherit; /* Inherit color from the button */
+    text-decoration: none; /* Remove underline */
+    display: inline; /* Ensure the link behaves like inline text */
 }
 
 .Medialab-untoggle {
@@ -481,6 +491,12 @@ nav ul li a:hover {
 	font-style: bold;
 	font-size: 116px;
 	background-color: rgba(255, 0, 0, 0.5); /* Red background with 50% opacity */
+}
+
+.Machinepark-blok-space {
+	padding-left: 100px;
+	margin-right: 510px;
+	background-color: white
 }
 
 
