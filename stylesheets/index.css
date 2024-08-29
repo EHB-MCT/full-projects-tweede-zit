@@ -314,7 +314,7 @@ nav ul li a:hover {
 .Medialab-toggle {
 	background-color: #e30613;
 	color: white;
-	border-radius: 5px;
+	border-radius: 15px;
 	border: none;
 	padding: 30px 100px;
 	cursor: pointer;
@@ -329,7 +329,7 @@ nav ul li a:hover {
 	background-color: white;
 	color: #ff0011;
 	border: 5px solid #ff0011;
-	border-radius: 5px;
+	border-radius: 15px;
 	padding: 30px 100px;
 	cursor: pointer;
 
@@ -460,6 +460,27 @@ nav ul li a:hover {
     color: white; /* Text color set to white for contrast */
     padding: 5px; /* Optional: Adds padding around the text */
     display: inline-block; /* Ensures the background only covers the text */
+}
+
+.overlay-text-medialab {
+	position: absolute;
+	top: 50%;
+	left: 2%;
+	transform: translate(-50%, -50%);
+	color: white; /* Text color */
+	font-size: 24px; /* Adjust as needed */
+	font-weight: bold; /* Optional: make text bold */
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: add shadow for better readability */
+	text-align: left; /* Center align text */
+	padding: 10px; /* Optional: add padding around text */
+	box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+	margin-right: 20px;
+	padding-right: 100px;
+	font-family: "century-gothic", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 116px;
+	background-color: rgba(255, 0, 0, 0.5); /* Red background with 50% opacity */
 }
 
 
