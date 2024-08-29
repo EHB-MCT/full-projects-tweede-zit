@@ -400,6 +400,20 @@ nav ul li a:hover {
 	font-size: 50px;
 }
 
+.Machinepark-untoggle-motion {
+	background-color: white;
+	color: #ff0011;
+	border: 5px solid #ff0011;
+	border-radius: 5px;
+	padding: 30px 100px;
+	cursor: pointer;
+
+	font-family: "century-gothic", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 35px;
+}
+
 .row2-machinepark {
 	display: flex;
 }
