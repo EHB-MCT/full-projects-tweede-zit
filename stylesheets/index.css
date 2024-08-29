@@ -465,7 +465,7 @@ nav ul li a:hover {
 .overlay-text-medialab {
 	position: absolute;
 	top: 50%;
-	left: 2%;
+	left: 23%;
 	transform: translate(-50%, -50%);
 	color: white; /* Text color */
 	font-size: 24px; /* Adjust as needed */
