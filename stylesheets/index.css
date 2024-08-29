@@ -79,6 +79,7 @@ nav ul {
 	flex-grow: 1;
 	justify-content: space-between; /* Distribute space between the items */
 	align-items: center;
+	border-radius: 25px;
 }
 
 nav ul li a {
