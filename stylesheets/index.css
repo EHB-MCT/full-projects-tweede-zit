@@ -372,6 +372,34 @@ nav ul li a:hover {
 	height: auto; /* Maintains the aspect ratio */
 }
 
+.row1-machinepark {
+	display: flex;
+}
+
+.Machinepark-blok {
+	margin-right: 20px; /* Optional: adds space between the blocks */
+}
+
+.Machinepark-blok {
+	display: flex;
+	flex-direction: column; /* Stack items vertically */
+	align-items: center; /* Center items horizontally */
+}
+
+.Machinepark-untoggle {
+	background-color: #e30613;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	padding: 30px 100px;
+	cursor: pointer;
+
+	font-family: "century-gothic", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 50px;
+}
+
 /*contact*/
 
 .overlay-text-black {
@@ -414,4 +442,7 @@ nav ul li a:hover {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 40px;
+}
+
+.greenscreen-foto {
 }
