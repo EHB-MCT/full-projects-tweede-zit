@@ -89,8 +89,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	background-color: #ffeeee;
-	border-radius: 4px;
+	color: #e30613;
 }
 
 /* FOOTER */
