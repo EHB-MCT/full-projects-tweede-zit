@@ -244,3 +244,11 @@ nav ul li a:hover {
 .room2 {
 	flex: 1;
 }
+
+.room2 {
+	margin-right: 70px;
+}
+
+.room1 {
+	margin-left: 50px;
+}
