@@ -47,6 +47,9 @@ p {
 	font-size: 40px;
 }
 /**  website margins  */
+.foto-vr {
+	width: 100%;
+}
 body {
 	font-family: Arial, sans-serif;
 	font-family: "century-gothic", sans-serif;
@@ -98,13 +101,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	color: #e30613;
+	color: rgb(255, 0, 17);
 }
 
 /* FOOTER */
 .footer-1 {
-	height: 260px; /* Set the height of the footer */
-	background-color: #e30613; /* Optional: Set a background color */
+	height: 200px; /* Set the height of the footer */
+	background-color: #ff0011; /* Optional: Set a background color */
 	width: 100%; /* Ensure the footer spans the full width of the viewport */
 	position: relative; /* Position relative to the document flow */
 	padding-top: 20px;
@@ -119,9 +122,8 @@ nav ul li a:hover {
 .tekst-footer {
 	color: white;
 	margin-left: 20px;
-	margin-top: 10px;
+	margin-top: -50px;
 }
-
 .insta-logo {
 	width: 2%; /* Adjust the width to 100% of its container */
 	max-width: 100px; /* Optional: Set a max width to prevent it from becoming too large */
@@ -134,9 +136,8 @@ nav ul li a:hover {
 	height: auto; /* Keep the aspect ratio */
 }
 .tekst-footer p {
-	margin-bottom: 10px;
+	margin-bottom: 0%;
 }
-
 /*-------------------------------------------------------------------------- */
 
 /*index.html*/
@@ -216,7 +217,7 @@ nav ul li a:hover {
 }
 
 .knop-homepage {
-	background-color: #e30613;
+	background-color: #ff0011;
 	color: white;
 	border-radius: 5px;
 	border: none;
@@ -293,7 +294,16 @@ nav ul li a:hover {
 	margin-bottom: 100px;
 }
 
+.buttons-row-medialab {
+	display: flex;
+	justify-content: center;
+}
+
 .buttons-row-medialab button {
+	margin: 0 100px; /* 50px total spacing between buttons (25px on each side) */
+}
+
+.Medialab-toggle {
 	background-color: #e30613;
 	color: white;
 	border-radius: 5px;
@@ -307,20 +317,25 @@ nav ul li a:hover {
 	font-size: 50px;
 }
 
-.buttons-row-medialab {
-	display: flex;
-	justify-content: center;
-}
+.Medialab-untoggle {
+	background-color: white;
+	color: #ff0011;
+	border: 5px solid #ff0011;
+	border-radius: 5px;
+	padding: 30px 100px;
+	cursor: pointer;
 
-.buttons-row-medialab button {
-	margin: 0 100px; /* 50px total spacing between buttons (25px on each side) */
+	font-family: "century-gothic", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 50px;
 }
 
 /*contact*/
 
 .overlay-text-black {
 	position: absolute;
-	top: 25%;
+	top: 20%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: rgb(0, 0, 0); /* Text color */
