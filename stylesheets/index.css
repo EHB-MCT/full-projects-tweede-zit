@@ -170,6 +170,20 @@ nav ul li a:hover {
 	margin-bottom: 50px;
 }
 
+.text-homepage p {
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+}
+
+.labos-mainblok p {
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 28px;
+}
+
 .labo-titel {
 	text-align: center;
 	margin: 0;
@@ -260,3 +274,6 @@ nav ul li a:hover {
 .blok2 {
 	margin-bottom: 50px;
 }
+
+/**************************************************************/
+/*medialab.html*/
