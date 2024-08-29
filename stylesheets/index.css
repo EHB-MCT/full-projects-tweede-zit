@@ -235,6 +235,13 @@ nav ul li a:hover {
 	font-size: 50px;
 }
 
+.knop-homepage:hover {
+    background-color:#f5f5f5;
+	border: #e30613;
+	color: #e30613;
+	border: 3px solid;
+}
+
 .labos-blok1 p {
 	font-family: "century-gothic", sans-serif;
 	font-weight: 700;
@@ -560,4 +567,31 @@ nav ul li a:hover {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 40px;
+}
+
+/*podcastenstudio.html*/
+
+.overlay-text-podcast {
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+	color: white; /* Text color */
+	font-size: 24px; /* Adjust as needed */
+	font-weight: bold; /* Optional: make text bold */
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: add shadow for better readability */
+	text-align: left; /* Center align text */
+	padding: 10px; /* Optional: add padding around text */
+	box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+	margin-right: 20px;
+	padding-right: 100px;
+	font-family: "century-gothic", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 116px;
+	background-color: rgba(255, 0, 0, 0.5); /* Red background with 50% opacity */
+}
+
+.text-blok-medialab1 {
+	margin-right: 50px;
 }
