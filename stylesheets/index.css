@@ -444,6 +444,24 @@ nav ul li a:hover {
 
 }
 
+.tarievenblok h3 {
+	font-family: "century-gothic", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+
+}
+
+.tarievenblok {
+	margin-bottom: 100px;
+}
+
+.overlay-text {
+    background-color: rgba(255, 0, 0, 0.5); /* Red background with 50% opacity */
+    color: white; /* Text color set to white for contrast */
+    padding: 5px; /* Optional: Adds padding around the text */
+    display: inline-block; /* Ensures the background only covers the text */
+}
+
 
 /*contact*/
 
