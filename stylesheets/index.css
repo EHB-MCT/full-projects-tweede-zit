@@ -151,8 +151,9 @@ nav ul li a:hover {
 	width: 200px;
 	height: 100px;
 	background: rgb(255, 0, 0);
-	opacity: 50%;
-	margin-top: -0%;
+	opacity: 70%;
+	margin-top: -34%;
+	margin-left: %;
 }
 .vrbril-homepage {
 	display: block; /* Remove extra space below image */
