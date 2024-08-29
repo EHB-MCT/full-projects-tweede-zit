@@ -147,6 +147,13 @@ nav ul li a:hover {
 	display: inline-block; /* Adjust as needed */
 }
 
+#rectangle {
+	width: 200px;
+	height: 100px;
+	background: rgb(255, 0, 0);
+	opacity: 50%;
+	margin-top: -0%;
+}
 .vrbril-homepage {
 	display: block; /* Remove extra space below image */
 	width: 100%; /* Adjust as needed */
@@ -329,6 +336,26 @@ nav ul li a:hover {
 	font-weight: 700;
 	font-style: bold;
 	font-size: 50px;
+}
+
+.text-blok-medialab {
+	display: flex;
+}
+
+.text-blok-medialab1,
+.text-blok-medialab2 {
+	flex: 1;
+}
+
+.text-blok-medialab2 {
+	margin-top: 200px;
+}
+
+.text-blok-medialab1 {
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
 }
 
 /*contact*/
