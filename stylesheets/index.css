@@ -595,3 +595,120 @@ nav ul li a:hover {
 .text-blok-medialab1 {
 	margin-right: 50px;
 }
+
+/*inschrijving.html*/
+
+.workshop-fotos {
+	width: 100%; /* Adjust the width to 100% of its container */
+	max-width: 700px; /* Optional: Set a max width to prevent it from becoming too large */
+	height: auto; /* Keep the aspect ratio */
+}
+
+.workshop-fotos-micro {
+	width: 100%; /* Adjust the width to 100% of its container */
+	max-width: 565px; /* Optional: Set a max width to prevent it from becoming too large */
+	height: auto; /* Keep the aspect ratio */
+	
+}
+
+.titel-workshop h2 {
+	text-align: center;
+}
+
+.blok-workshop h2 {
+	font-family: "century-gothic", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 80px;
+	margin-bottom: -30px;
+	
+}
+
+.blok-workshop p {
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40px;
+}
+
+.blok-workshop {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.dotted-list {
+    list-style-type: disc; /* Sets the list marker to a disc (dotted) */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    padding-left: 20px; /* Adds padding to the left for indentation */
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.dotted-list li {
+    margin-bottom: 10px; /* Adds space between list items */
+}
+
+.dotted-list li::marker {
+    color: #e30613; /* Changes the color of the list marker */
+}
+
+input[type="text"],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type="submit"] {
+	background-color: #E30613;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 100%;
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 35px;
+}
+
+
+input[type="submit"]:hover {
+	background-color:#fffcfa ;
+	border: #e30613;
+	color: #e30613;
+	border: 3px solid;
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 35px;
+}
+
+
+.container {
+	border-radius: 20px;
+	background-color: #fffcfa;
+	padding: 20px;
+	margin: 100px;
+	border: 2px solid;
+	border: black;
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 35px;
+}
+
+
+.box-naam {
+	display: flex;
+}
+

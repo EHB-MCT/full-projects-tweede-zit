@@ -1,4 +1,5 @@
 <!-- @format -->
+<!-- @format -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,7 +7,8 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="stylesheets/index.css" />
-		<title>Document</title>
+		<title>De Podcaststudio</title>
+		<link rel="stylesheet" href="https://use.typekit.net/lkt0dqm.css" />
 		<link rel="stylesheet" href="https://use.typekit.net/lkt0dqm.css" />
 		<link rel="stylesheet" href="https://use.typekit.net/lkt0dqm.css" />
 		<link rel="stylesheet" href="https://use.typekit.net/lkt0dqm.css" />
@@ -17,10 +19,99 @@
 			<!-- Replace 'your-logo.png' with your actual logo file path -->
 			<ul>
 				<li><a href="index.html">home</a></li>
-				<li><a href="#nieuws">Nieuws en Events</a></li>
-				<li><a href="#contact">Contact</a></li>
-				<li><a href="#inschrijving">Inschrijving Workshops</a></li>
+				<li><a href="nieuws.html">Nieuws en Events</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="inschrijving.html">Inschrijving Workshops</a></li>
 			</ul>
 		</nav>
+		<div class="titel-workshop">
+			<h2>Inschrijving workshop</h2>
+		</div>
+		<div class="blok-workshop">
+			<h2>Over de workshop</h2>
+			<p>
+				Schrijf je in voor onze MediaLab workshops en leer werken met
+				geavanceerde tools zoals chromakey, motion capture, 3D-scanners en meer!
+			</p>
+			<div>
+				<img src="images2/Intersection.png" alt="Logo" class="workshop-fotos" />
+				<img src="images2/micro.png" alt="Logo" class="workshop-fotos-micro" />
+			</div>
+			<ul class="dotted-list">
+				<li>3D Printers</li>
+				<li>Laser cutter</li>
+				<li>Audio studio</li>
+				<li>Arduino projects</li>
+				<li>Vacuum former</li>
+			</ul>
+		</div>
+
+		<div class="inschrijving-Workshop">
+		
+	
+			<div class="container">
+	
+				<div><form action="/action_page.php">
+					<label for="fname">Naam</label>
+					<input
+						type="text"
+						id="fname"
+						name="firstname"
+						placeholder="Naam..."
+					/>
+				</div>
+				
+	
+					<label for="lname">Familie naam</label>
+					<input
+						type="text"
+						id="lname"
+						name="lastname"
+						placeholder="Familie naam..."
+					/>
+	
+					<label for="country">Workshop</label>
+					<select id="country" name="country">
+						<option value="australia">3d printer</option>
+						<option value="canada">Laser cutter</option>
+						<option value="usa">Audio Studio</option>
+						<option value="usa">Vaacum former</option>
+					</select>
+	
+					<label for="country">Tijdstip</label>
+					<select id="country" name="country">
+						<option value="australia">14:30</option>
+						<option value="canada">16:30</option>
+						<option value="usa">18:30</option>
+					</select>
+	
+					
+	
+					<label for="subject">Onderwerp</label>
+					<textarea
+						id="subject"
+						name="subject"
+						placeholder="Heb je een vraagje? Laat ze hier maar achter!"
+						style="height: 200px"
+					></textarea>
+	
+					<input type="submit" value="Verzend" />
+				</form>
+			</div>
+	
+		</div>
+
+		<footer class="footer-1">
+			<div class="tekst-footer">
+				<p>Erasmus Hogeschool Brussel campus Kaai</p>
+
+				<a href="https://www.instagram.com/erasmushogeschool/"
+					><img src="images/insta.png" alt="Logo" class="insta-logo"
+				/></a>
+				<img src="images/tiktok.png" alt="Logo" class="tiktok-logo" />
+
+				<p>+32 266 43 20 70</p>
+			</div>
+		</footer>
 	</body>
 </html>
