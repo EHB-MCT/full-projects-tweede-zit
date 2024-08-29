@@ -290,6 +290,7 @@ nav ul li a:hover {
 .buttons-row-medialab {
 	align-self: center;
 	margin-top: 50px;
+	margin-bottom: 100px;
 }
 
 .buttons-row-medialab button {
@@ -312,7 +313,7 @@ nav ul li a:hover {
 }
 
 .buttons-row-medialab button {
-	margin: 0 25px; /* 50px total spacing between buttons (25px on each side) */
+	margin: 0 100px; /* 50px total spacing between buttons (25px on each side) */
 }
 
 /*contact*/
