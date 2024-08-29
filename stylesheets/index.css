@@ -471,6 +471,15 @@ nav ul li a:hover {
 	padding-top: ;
 }
 
+.machinepark-blok h2 {
+	margin-left: 70px;
+}
+
+.tarievenblok {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
 /*nieuws en events*/
 
 .Nieuws-events p {
