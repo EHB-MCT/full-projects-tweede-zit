@@ -167,6 +167,7 @@ nav ul li a:hover {
 .text-homepage {
 	margin-left: 150px;
 	margin-right: 150px;
+	margin-bottom: 50px;
 }
 
 .labo-titel {
@@ -215,6 +216,8 @@ nav ul li a:hover {
 .background-color-index {
 	background-color: #f5f5f5;
 	padding-top: 20px;
+	padding-bottom: 50px;
+	margin-bottom: 80px;
 }
 
 .blok1 {
@@ -251,4 +254,9 @@ nav ul li a:hover {
 
 .room1 {
 	margin-left: 50px;
+}
+
+.blok1,
+.blok2 {
+	margin-bottom: 50px;
 }
