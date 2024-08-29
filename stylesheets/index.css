@@ -55,6 +55,15 @@ body {
 	font-size: 40px;
 }
 
+/*navigation*/
+
+.lijntje {
+	width: 100%;
+	height: 2px;
+	background-color: black;
+	margin: 2px 0;
+}
+
 nav {
 	background-color: white;
 	padding: 10px;
@@ -277,3 +286,52 @@ nav ul li a:hover {
 
 /**************************************************************/
 /*medialab.html*/
+
+.buttons-row-medialab {
+	align-self: center;
+	margin-top: 50px;
+}
+
+.buttons-row-medialab button {
+	background-color: #e30613;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	padding: 30px 100px;
+	cursor: pointer;
+
+	font-family: "century-gothic", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 50px;
+}
+
+.buttons-row-medialab {
+	display: flex;
+	justify-content: center;
+}
+
+.buttons-row-medialab button {
+	margin: 0 25px; /* 50px total spacing between buttons (25px on each side) */
+}
+
+/*contact*/
+
+.overlay-text-black {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: rgb(0, 0, 0); /* Text color */
+	font-size: 24px; /* Adjust as needed */
+	font-weight: bold; /* Optional: make text bold */
+	text-align: left; /* Center align text */
+	padding: 10px; /* Optional: add padding around text */
+	box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+	margin-right: 20px;
+	padding-right: 100px;
+	font-family: "century-gothic", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 116px;
+}
