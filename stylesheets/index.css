@@ -441,7 +441,9 @@ nav ul li a:hover {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 40px;
+
 }
+
 
 /*contact*/
 
@@ -478,6 +480,15 @@ nav ul li a:hover {
 .tarievenblok {
 	margin-left: 50px;
 	margin-right: 50px;
+}
+
+.tarievenblok h3 {
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: bold;
+	font-size: 40px;
+	padding-top: ;
+	fi
 }
 
 /*nieuws en events*/
