@@ -216,3 +216,31 @@ nav ul li a:hover {
 	background-color: #f5f5f5;
 	padding-top: 20px;
 }
+
+.blok1 {
+	display: flex;
+}
+.space1,
+.space2 {
+	flex: 1;
+}
+
+.space1 {
+	margin-left: 50px;
+}
+
+.space2 {
+	margin-left: 20px;
+}
+
+.blok-openingsuren h2 {
+	text-align: center;
+}
+
+.blok2 {
+	display: flex;
+}
+.room1,
+.room2 {
+	flex: 1;
+}
