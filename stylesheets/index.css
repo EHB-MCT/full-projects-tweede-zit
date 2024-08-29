@@ -387,10 +387,10 @@ nav ul li a:hover {
 }
 
 .Machinepark-untoggle {
-	background-color: #e30613;
-	color: white;
+	background-color: white;
+	color: #ff0011;
+	border: 5px solid #ff0011;
 	border-radius: 5px;
-	border: none;
 	padding: 30px 100px;
 	cursor: pointer;
 
@@ -398,6 +398,10 @@ nav ul li a:hover {
 	font-weight: 700;
 	font-style: bold;
 	font-size: 50px;
+}
+
+.row2-machinepark {
+	display: flex;
 }
 
 /*contact*/
@@ -445,4 +449,7 @@ nav ul li a:hover {
 }
 
 .greenscreen-foto {
+	display: block; /* Remove extra space below image */
+	width: 100%; /* Adjust as needed */
+	height: auto; /* Maintain aspect ratio */
 }
