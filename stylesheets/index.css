@@ -110,7 +110,7 @@ nav ul li a:hover {
 	background-color: #ff0011; /* Optional: Set a background color */
 	width: 100%; /* Ensure the footer spans the full width of the viewport */
 	position: relative; /* Position relative to the document flow */
-	padding-top: 20px;
+	padding-top: px;
 }
 
 .whitespace {
@@ -511,7 +511,8 @@ nav ul li a:hover {
 
 .overlay-text-black {
 	position: absolute;
-	top: 20%;
+	
+	top: 25%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: rgb(0, 0, 0); /* Text color */
@@ -527,12 +528,55 @@ nav ul li a:hover {
 	font-style: normal;
 	font-size: 116px;
 }
+.contact-image-1 img {
+	
+	margin-left: 1000px;
+	margin-top: -450px;
+	width: 45%;
+}
+.contact-image-2 img {
+
+	margin-left: 50px;
+	margin-top: 100px;
+	
+
+}
+
+.text-contact  {
+margin-left: 50px;
+}
+
 .text-contact p {
 	font-family: "century-gothic", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 80px;
-	padding-top: ;
+	margin-top: 200px;
+}
+
+.text-contact-2 {
+	margin-left: 50px;
+	margin-right: 65%;
+
+	
+	
+}
+.text-contact-2 p {
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.text-contact-3 {
+	margin-left: 1000px;
+	margin-top: -590px;
+	margin-right: 30%;
+	margin-bottom: 30%;
+
+}
+
+.text-contact-3 p {
+
+
 }
 
 .machinepark-blok h2 {
@@ -554,6 +598,27 @@ nav ul li a:hover {
 }
 
 /*nieuws en events*/
+
+.Nieuws-events {
+	margin-left: 400px; 
+}
+
+.Nieuws-events h1{
+	
+}
+
+.Nieuws-events p{
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+.Nieuws-events .space1 h2 .p {
+	margin-right: 40px;
+}
+
+.space2 h2 {
+	margin-left: 0px;
+}
 
 .Nieuws-events p {
 	font-family: "century-gothic", sans-serif;
@@ -711,4 +776,3 @@ input[type="submit"]:hover {
 .box-naam {
 	display: flex;
 }
-
