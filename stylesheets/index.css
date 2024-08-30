@@ -161,9 +161,9 @@ nav ul li a:hover {
 /* Overlay text styling */
 .overlay-text {
 	position: absolute;
-	top: 50%;
-	left: 20%;
-	transform: translate(-50%, -50%);
+	width: 80%;
+	top: 100px;
+	left: 30px;
 	color: white; /* Text color */
 	font-size: 24px; /* Adjust as needed */
 	font-weight: bold; /* Optional: make text bold */
@@ -177,8 +177,13 @@ nav ul li a:hover {
 	font-weight: 700;
 	font-style: bold;
 	font-size: 116px;
-	margin-left: 100px;
+
+	background-color: rgba(255, 0, 0, 0.5); /* Red background with 50% opacity */
+    color: white; /* Text color set to white for contrast */
+    display: inline-block; /* Ensures the background only covers the text */
 }
+	
+
 
 .text-homepage {
 	margin-left: 150px;
@@ -331,6 +336,13 @@ nav ul li a:hover {
 	font-size: 50px;
 }
 
+.Medialab-toggle:hover {
+    background-color:#f5f5f5;
+	border: #e30613;
+	color: #e30613;
+	border: 5px solid;
+}
+
 .Medialab-toggle a {
     color: inherit; /* Inherit color from the button */
     text-decoration: none; /* Remove underline */
@@ -355,6 +367,13 @@ nav ul li a:hover {
 	font-weight: 700;
 	font-style: bold;
 	font-size: 50px;
+}
+
+.Medialab-untoggle:hover {
+    background-color:#f5f5f5;
+	border: #e30613;
+	color: #e30613;
+	border: 5px solid;
 }
 
 .text-blok-medialab-backgroundcolor {
@@ -397,6 +416,7 @@ nav ul li a:hover {
 
 .Machinepark-blok {
 	margin-right: 20px; /* Optional: adds space between the blocks */
+	flex: 1;
 }
 
 .Machinepark-blok {
@@ -473,13 +493,7 @@ nav ul li a:hover {
 	margin-bottom: 100px;
 }
 
-.overlay-text {
-    background-color: rgba(255, 0, 0, 0.5); /* Red background with 50% opacity */
-    color: white; /* Text color set to white for contrast */
 
-    display: inline-block; /* Ensures the background only covers the text */
-	
-}
 
 .overlay-text-medialab {
 	position: absolute;
