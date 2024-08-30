@@ -106,6 +106,7 @@ nav ul li a:hover {
 
 /* FOOTER */
 .footer-1 {
+	margin-top: 10%;
 	height: 200px; /* Set the height of the footer */
 	background-color: #ff0011; /* Optional: Set a background color */
 	width: 100%; /* Ensure the footer spans the full width of the viewport */
@@ -614,6 +615,7 @@ margin-left: 50px;
 	margin-left: -690px;
 	margin-right: 410px;
 	text-align: center;
+	margin-bottom: 10%;
 }
 
 .Nieuws-events .space1 h2 .p {
@@ -663,19 +665,26 @@ width: 100%;
 }
 
 
-.image-Ultimaker {
-	margin-right: -385px;
-	margin-left: 410px;
+.image-Ultimaker2 {
+	margin-top: -31%;
+	margin-right: 150px;
+	margin-left: 40%;
 }
 
 .image-Ultimaker img {
 	width: 100%;
 }
 
-.axel3 h2{
+.axel3 {
 	margin-top: 10%;
 	margin-right: 65%;
 	margin-left: -355px;
+}
+.axel3 h2 {
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 80px;
 }
 
 .axel4{
@@ -688,6 +697,206 @@ width: 100%;
 }
 
 
+.blok-Event1 {
+	margin-top: 10%;
+	width: 100%;
+	display: flex;
+}
+
+.blok-Event1 .item {
+	flex: 1;
+}
+
+.blok-Event1 .item:nth-child(even){
+	flex: 1;
+}
+
+.blok-Event1 .item img {
+	margin-left: 5%;
+	width: 85%;
+}
+
+.drone-title  {
+	margin-left: 5%;
+}
+.drone-title h4 {
+	margin-right: 5%;
+}
+.drone-text  {
+	margin-left: 6%;
+	margin-right: 3%;
+}
+.drone-text p {
+	margin-right: 5%;
+}
+.medialab-title  {
+	margin-left: 5%;
+}
+.medialab-title h4 {
+	margin-right: 5%;
+}
+.medialab-text  {
+	margin-left: 6%;
+}
+.medialab-text p {
+	margin-right: 5%;
+}
+.hack-title  {
+	margin-left: 5%;
+}
+.hack-title h4 {
+	
+	margin-right: 5%;
+}
+.hack-text  {
+	margin-left: 6%;
+}
+.hack-text p {
+	margin-right: 5%;
+}
+
+
+.drone-button{
+	background-color: #ff0011;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	padding: 30px 100px;
+	cursor: pointer;
+
+	font-family: "century-gothic", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 50px;
+}
+.medialab-button{
+	background-color: #ff0011;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	padding: 30px 100px;
+	cursor: pointer;
+
+	font-family: "century-gothic", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 50px;
+}
+/*
+.hack-button{
+	background-color: #ff0011;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	padding: 40px 30px;
+	cursor: pointer;
+
+	font-family: "century-gothic", sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 50px;
+}
+	*/
+
+	.drone-button{
+		display: flex;
+		justify-content: space-around;
+	}
+	.drone-button a{
+		background-color: red;
+		padding: 10px;
+		border-radius: 10px;
+		text-decoration: none;
+		color: white;
+	}
+	.medialab-button{
+		display: flex;
+		justify-content: space-around;
+	}
+	.medialab-button a{
+		background-color: red;
+		padding: 10px;
+		border-radius: 10px;
+		text-decoration: none;
+		color: white;
+	}
+	.hack-button{
+		display: flex;
+		justify-content: space-around;
+	}
+	.hack-button a{
+		background-color: red;
+		padding: 10px;
+		border-radius: 10px;
+		text-decoration: none;
+		color: white;
+	}
+
+
+
+/*
+.images2-drone2 img {
+	width: 50%;
+	padding-left: 10%;
+}
+.images2-drone3 img {
+	width: 80%;
+	padding-right: 10%;
+}
+
+.Drone-workhops{
+	width: 30%;
+}
+.drone-title {
+	padding-left: 10%;
+	margin-left: 0%;
+	margin-right: 270px;
+
+}
+
+.drone-text {
+	padding-left: 10%;
+	margin-left: 0%;
+	margin-right: 270px;
+
+}
+.drone-title h4 {
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 45px;
+}
+
+.medialab-title h4 {
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 45px;
+}
+
+.hack-title h4 {
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 45px;
+}
+
+.hack-title  {
+	padding-left: 10%;
+	margin-left: 0%;
+	margin-right: -200px;
+}
+
+.hack-text {
+	padding-left: 10%;
+	margin-left: 0%;
+	margin-right: 220px;
+}
+.images2-drone4 img {
+	width: 54%;
+	padding-left: 10%;
+}
+*/
 
 /*podcastenstudio.html*/
 
