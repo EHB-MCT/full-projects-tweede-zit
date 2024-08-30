@@ -162,7 +162,7 @@ nav ul li a:hover {
 .overlay-text {
 	position: absolute;
 	top: 50%;
-	left: 35%;
+	left: 20%;
 	transform: translate(-50%, -50%);
 	color: white; /* Text color */
 	font-size: 24px; /* Adjust as needed */
@@ -171,12 +171,13 @@ nav ul li a:hover {
 	text-align: left; /* Center align text */
 	padding: 10px; /* Optional: add padding around text */
 	box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
-	margin-right: 20px;
-	padding-right: 100px;
+
+	
 	font-family: "century-gothic", sans-serif;
 	font-weight: 700;
 	font-style: bold;
 	font-size: 116px;
+	margin-left: 100px;
 }
 
 .text-homepage {
@@ -475,8 +476,9 @@ nav ul li a:hover {
 .overlay-text {
     background-color: rgba(255, 0, 0, 0.5); /* Red background with 50% opacity */
     color: white; /* Text color set to white for contrast */
-    padding: 5px; /* Optional: Adds padding around the text */
+
     display: inline-block; /* Ensures the background only covers the text */
+	
 }
 
 .overlay-text-medialab {
@@ -830,4 +832,20 @@ input[type="submit"]:hover {
 
 .box-naam {
 	display: flex;
+}
+
+.tekts-greenscreen {
+
+
+
+
+}
+.tekts-greenscreen p {
+
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 35px;
+
+
 }
