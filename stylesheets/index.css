@@ -606,19 +606,20 @@ margin-left: 50px;
 .Nieuws-events h1{
 	
 }
+.nieuws-events-lower {
+	margin-left: 40%;
+}
 
-.Nieuws-events p{
-	margin-left: 400px;
-	margin-right: 400px;
+.Nieuws-events p {
+	margin-left: -690px;
+	margin-right: 410px;
+	text-align: center;
 }
 
 .Nieuws-events .space1 h2 .p {
 	margin-right: 40px;
 }
 
-.space2 h2 {
-	margin-left: 0px;
-}
 
 .Nieuws-events p {
 	font-family: "century-gothic", sans-serif;
@@ -633,6 +634,60 @@ margin-left: 50px;
 	font-style: normal;
 	font-size: 40px;
 }
+
+.images2-drone {
+	margin-left: -385px;
+	margin-right: 410px;
+}
+.axel{
+	margin-top: -36%;
+	margin-left: 33%;
+	margin-right: -100px;
+}
+.axel h2 {
+	font-family: "century-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 80px;
+}
+.image2-drone img {
+width: 100%;
+}
+.axel2{
+	margin-top: -2%;
+	margin-left: 81%;
+	margin-right: -290px;
+}
+.axel2 p {
+	text-align: left;
+}
+
+
+.image-Ultimaker {
+	margin-right: -385px;
+	margin-left: 410px;
+}
+
+.image-Ultimaker img {
+	width: 100%;
+}
+
+.axel3 h2{
+	margin-top: 10%;
+	margin-right: 65%;
+	margin-left: -355px;
+}
+
+.axel4{
+	margin-top: -2%;
+	margin-right: 40%;
+	margin-left: 340px;
+}
+.axel4 p {
+	text-align: left;
+}
+
+
 
 /*podcastenstudio.html*/
 
