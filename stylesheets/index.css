@@ -599,6 +599,27 @@ margin-left: 50px;
 
 /*nieuws en events*/
 
+.Nieuws-events {
+	margin-left: 400px; 
+}
+
+.Nieuws-events h1{
+	
+}
+
+.Nieuws-events p{
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+.Nieuws-events .space1 h2 .p {
+	margin-right: 40px;
+}
+
+.space2 h2 {
+	margin-left: 0px;
+}
+
 .Nieuws-events p {
 	font-family: "century-gothic", sans-serif;
 	font-weight: 400;
@@ -755,4 +776,3 @@ input[type="submit"]:hover {
 .box-naam {
 	display: flex;
 }
-
