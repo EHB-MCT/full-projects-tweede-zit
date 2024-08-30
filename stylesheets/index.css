@@ -110,7 +110,7 @@ nav ul li a:hover {
 	background-color: #ff0011; /* Optional: Set a background color */
 	width: 100%; /* Ensure the footer spans the full width of the viewport */
 	position: relative; /* Position relative to the document flow */
-	padding-top: 20px;
+	padding-top: px;
 }
 
 .whitespace {
@@ -511,7 +511,8 @@ nav ul li a:hover {
 
 .overlay-text-black {
 	position: absolute;
-	top: 20%;
+	
+	top: 25%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: rgb(0, 0, 0); /* Text color */
@@ -527,6 +528,19 @@ nav ul li a:hover {
 	font-style: normal;
 	font-size: 116px;
 }
+.contact-image-1 img {
+	
+	margin-left: 1000px;
+	margin-top: -450px;
+	width: 45%;
+}
+.contact-image-2 img {
+
+	margin-left: 50px;
+	margin-top: 100px;
+	
+
+}
 
 .text-contact  {
 margin-left: 50px;
@@ -540,18 +554,28 @@ margin-left: 50px;
 	margin-top: 200px;
 }
 
-.text-contaxt-2 {
-	margin-left: px;
+.text-contact-2 {
+	margin-left: 50px;
 	margin-right: 65%;
+
+	
 	
 }
-
-
-.text-contaxt-2 p {
+.text-contact-2 p {
 	font-family: "century-gothic", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 40px;
+}
+.text-contact-3 {
+	margin-left: 1000px;
+	margin-top: -590px;
+	margin-right: 30%;
+	margin-bottom: 30%;
+
+}
+
+.text-contact-3 p {
+
 
 }
 
